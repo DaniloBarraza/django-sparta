@@ -55,7 +55,6 @@
   <ItemGroup>
     <Content Include=".gitignore" />
     <Content Include="app\static\home.css" />
-    <Content Include="app\static\imagenes\logo.svg" />
     <Content Include="app\static\index.css" />
     <Content Include="app\templates\home.html" />
     <Content Include="app\templates\index.html" />
