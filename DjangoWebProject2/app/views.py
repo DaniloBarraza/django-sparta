@@ -229,16 +229,3 @@ def eliminar_cliente(request):
                 {"type": "error", "text": f"Error al eliminar el cliente: {str(e)}"}
             ]
             return JsonResponse({'success': False, 'registro_cliente_messages': registro_cliente_messages}, status=500)
-
-
-import os
-
-directory = 'path/to/your/static/directory'
-
-for root, dirs, files in os.walk(directory):
-    for file in files:
-        try:
-            with open(os.path.join(root, file), 'r', encoding='utf-8'):
-                pass
-        except UnicodeDecodeError:
-            print(f"Error decoding {file}")

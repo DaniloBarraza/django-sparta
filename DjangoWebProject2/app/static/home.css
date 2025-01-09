@@ -77,7 +77,7 @@ nav ul {
         text-align: center;
         font-size: 24px;
         margin-bottom: 20px;
-        color: #00bfff; /* Color del texto del título */
+        color: #00bfff; /* Color del texto del titulo */
     }
 
 .form-grid {
@@ -114,7 +114,7 @@ button {
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
-    align-self: flex-start; /* Alinea el botón a la izquierda */
+    align-self: flex-start; /* Alinea el boton a la izquierda */
 }
 
 .right-buttons {
@@ -143,7 +143,7 @@ button {
 /* TABLE */
 /* Ajuste de la tabla para que ocupe menos espacio */
 /* Contenedor que envuelve toda la tabla */
-/* Contenedor que envuelve todo el contenido (incluyendo h2 y botón) */
+/* Contenedor que envuelve todo el contenido (incluyendo h2 y boton) */
 section.tabla {
     background-color: rgba(41,47,55,255); /* Fondo debajo del nav */
     padding: 40px 20px; /* Espacio alrededor de la tabla */
@@ -153,7 +153,7 @@ section.tabla {
     margin: 0 auto; /* Centra el contenedor */
 }
 
-/* Contenedor que envuelve el título, el botón y la tabla */
+/* Contenedor que envuelve el titulo, el boton y la tabla */
 .table-container {
     background-color: #292f37; /* Fondo oscuro para la tabla */
     border-radius: 8px; /* Bordes redondeados del contenedor de la tabla */
@@ -192,11 +192,11 @@ table {
             background-color: #2a3748;
         }
 
-    /* Ajuste de los colores de la paginación */
+    /* Ajuste de los colores de la paginacion */
     table .dataTables_paginate a {
         color: #ffffff;
         background-color: #292f37;
-        border: 1px solid #41454d; /* Bordes de los botones de paginación */
+        border: 1px solid #41454d; /* Bordes de los botones de paginacion */
         padding: 5px 10px;
         margin: 0 5px;
         border-radius: 4px;
@@ -216,7 +216,7 @@ table {
     }
 
 
-/* Estilo para el título y el botón */
+/* Estilo para el titulo y el boton */
 section.tabla h2 {
     color: #00a1ff;
     font-weight: bold;
@@ -225,12 +225,12 @@ section.tabla h2 {
 
 .contenedor-boton {
     display: flex;
-    justify-content: space-between; /* Alinea el botón y el título */
+    justify-content: space-between; /* Alinea el boton y el titulo */
     align-items: center;
 }
 
 .crear-usuario-btn {
-    background-color: #007bff; /* Color del botón */
+    background-color: #007bff; /* Color del boton */
     color: white;
     padding: 10px 20px;
     border: none;
@@ -243,7 +243,7 @@ section.tabla h2 {
     }
 
 
-/* Botón Crear */
+/* Boton Crear */
 .crear-usuario-btn {
     background-color: #007bff;
     color: white;
@@ -270,20 +270,20 @@ section.tabla h2 {
     cursor: pointer;
 }
 
-/* Texto de paginación y demás elementos en la tabla */
-table tfoot, 
-table tfoot td, 
-table tfoot th, 
-table .dataTables_info, 
+/* Texto de paginacion y demas elementos en la tabla */
+table tfoot,
+table tfoot td,
+table tfoot th,
+table .dataTables_info,
 table .dataTables_paginate {
     color: #ffffff; /* Hacer el texto blanco */
 }
 
-table tfoot td, 
-table tfoot th {
-    padding: 8px;
-    text-align: left;
-}
+    table tfoot td,
+    table tfoot th {
+        padding: 8px;
+        text-align: left;
+    }
 
 table .dataTables_info {
     margin-top: 10px;
@@ -295,21 +295,20 @@ table .dataTables_paginate {
     margin-top: 10px;
 }
 
-/* Ajustar colores del paginador */
-table .dataTables_paginate a {
-    color: #ffffff; /* Color blanco para los enlaces */
-    background-color: #292f37; /* Fondo del paginador */
-    border: 1px solid #3a4556; /* Bordes sutiles */
-    padding: 5px 10px;
-    margin: 0 5px;
-    border-radius: 4px;
-    font-size: 14px;
-}
+    /* Ajustar colores del paginador */
+    table .dataTables_paginate a {
+        color: #ffffff; /* Color blanco para los enlaces */
+        background-color: #292f37; /* Fondo del paginador */
+        border: 1px solid #3a4556; /* Bordes sutiles */
+        padding: 5px 10px;
+        margin: 0 5px;
+        border-radius: 4px;
+        font-size: 14px;
+    }
 
-table .dataTables_paginate a:hover {
-    background-color: #007bff; /* Cambio de fondo al pasar el mouse */
-    color: #ffffff; /* Asegurar que el texto sea blanco */
-}
+        table .dataTables_paginate a:hover {
+            background-color: #00bfff;
+        }
 
 
 /* Ajustar el fondo y bordes de las celdas de la tabla */
@@ -329,7 +328,7 @@ div.dt-container .dt-input {
 
     /* Cambiar el fondo de las opciones del desplegable */
     div.dt-container select.dt-input option {
-        background-color: #1f242b; /* Fondo más oscuro */
+        background-color: #1f242b;
         color: white; /* Texto blanco */
     }
 
@@ -361,7 +360,7 @@ div.dt-container .dt-input {
     border-radius: 5px;
     font-size: 16px; /* Ajusta el tamaño de la fuente */
     height: 38px; /* Ajusta la altura del select para que coincida con los otros inputs */
-    line-height: 30px; /* Ajusta la alineación del texto */
+    line-height: 30px;
 }
 
     /* Color del texto dentro del select */
@@ -369,9 +368,8 @@ div.dt-container .dt-input {
         color: #fff; /* Color del texto seleccionado */
     }
 
-/* Color del borde cuando el select está enfocado */
 .select2-container--default .select2-selection--single:focus {
-    border-color: #007bff; /* Color del borde cuando está enfocado */
+    border-color: #007bff;
 }
 
 /* Estilo para el dropdown de Select2 */
@@ -395,28 +393,27 @@ div.dt-container .dt-input {
 
 /* Fondo consistente para el select2 */
 .select2-container .select2-selection--single {
-    background-color: #1f232b; /* Asegúrate de que sea el mismo color de fondo */
+    background-color: #1f232b;
     color: #fff; /* Mantén el color blanco en los textos */
     border: 1px solid #1f232b; /* Bordes sutiles */
-    transition: background-color 0.3s ease, border 0.3s ease; /* Transición suave */
+    transition: background-color 0.3s ease, border 0.3s ease;
 }
 
-    /* Cuando el select2 esté deshabilitado */
     .select2-container .select2-selection--single:disabled {
-        background-color: #1f232b; /* Color más oscuro mientras se desactiva */
-        border: 1px solid #585d67; /* Bordes más suaves */
-        color: #aaa; /* Cambia el color del texto cuando está deshabilitado */
+        background-color: #1f232b;
+        border: 1px solid #585d67;
+        color: #aaa;
     }
 
     /* Estado enfocado */
     .select2-container .select2-selection--single:focus {
         border-color: #007bff; /* Cambiar el borde al foco */
-        background-color: #1f232b; /* Color de fondo ligeramente más claro */
+        background-color: #1f232b;
     }
 
 /* Estado de carga */
 .select2-container.loading .select2-selection--single {
     background-color: #1f232b; /* Fondo mientras carga */
     color: #fff;
-    border: 1px solid #41454d; /* Bordes sutiles mientras está en espera */
+    border: 1px solid #41454d;
 }
