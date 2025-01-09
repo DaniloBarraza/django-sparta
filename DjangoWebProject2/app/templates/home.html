@@ -218,7 +218,7 @@
     <script>
         $(document).ready(function () {
             $('#CodRegion').select2({
-                placeholder: "Seleccione una región",
+                placeholder: "Seleccione una region",
                 allowClear: false,
                 width: '100%',
                 dropdownPosition: 'above'
@@ -361,7 +361,7 @@
         messages.forEach(msg => {
             Swal.fire({
                 icon: msg.type,
-                title: msg.type === 'success' ? 'Éxito' : 'Error',
+                title: msg.type === 'success' ? 'Exito' : 'Error',
                 text: msg.text,
                 confirmButtonText: 'Aceptar'
             });
@@ -386,17 +386,17 @@
         // Función de eliminación de cliente
         function eliminarCliente(idCliente, rutCliente) {
             if (!rutCliente) {
-                console.error('El RUT del cliente no está definido');
+                console.error('El RUT del cliente no esta definido');
                 return;
             }
 
             // Mostrar la ventana emergente de confirmación con SweetAlert2
             Swal.fire({
-                title: `¿Estás seguro de que deseas eliminar al cliente con RUT: ${rutCliente}?`,
-                text: "Esta acción no se puede deshacer.",
+                title: `¿Estas seguro de que deseas eliminar al cliente con RUT: ${rutCliente}?`,
+                text: "Esta accion no se puede deshacer.",
                 icon: 'warning',
                 showCancelButton: true,
-                confirmButtonText: 'Sí, eliminar',
+                confirmButtonText: 'Si, eliminar',
                 cancelButtonText: 'Cancelar',
                 reverseButtons: true
             }).then((result) => {
@@ -414,7 +414,7 @@
                             if (data.success) {
                                 Swal.fire({
                                     icon: 'success',
-                                    title: 'Éxito',
+                                    title: 'Exito',
                                     text: data.registro_cliente_messages[0].text,
                                     confirmButtonText: 'Aceptar'
                                 });
