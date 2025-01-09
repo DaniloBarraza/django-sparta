@@ -2,6 +2,8 @@
 # Exit on error
 set -o errexit
 
+cd DjangoWebProject2
+
 # Modify this line as needed for your package manager (pip, poetry, etc.)
 pip install -r requirements.txt
 
