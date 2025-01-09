@@ -2,11 +2,14 @@
 # Exit on error
 set -o errexit
 
-# Modify this line as needed for your package manager (pip, poetry, etc.)
+# Instalar las dependencias necesarias desde requirements.txt
 pip install -r requirements.txt
 
 # Navegar al directorio raíz del proyecto donde está manage.py
 cd DjangoWebProject2
 
-# Recolectar archivos estáticos, indicando el directorio correcto para los archivos estáticos
+# Ejecutar collectstatic desde la ubicación de manage.py
 python manage.py collectstatic --no-input
+
+# Cambiar al directorio 'app' si es necesario (si tu proyecto tiene esa estructura)
+cd app
