@@ -1,0 +1,13 @@
+env/
+
+db.sqlite3
+'''
+
+__pycache__/
+
+# Archivos generados automáticamente
+.vs/
+__pycache__/
+*.pyc
+*.pyo
+db.sqlite3
