@@ -9,7 +9,7 @@ pip install -r requirements.txt
 cd DjangoWebProject2
 
 # Ejecutar collectstatic desde la ubicación de manage.py
-python manage.py collectstatic --no-input
+python manage.py collectstatic --clear --no-input
 
 # Cambiar al directorio 'app' si es necesario (si tu proyecto tiene esa estructura)
 cd app
