@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\DjangoWebProject2\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|solutionrelative:DjangoWebProject2\\DjangoWebProject2\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\app\\templates\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|solutionrelative:DjangoWebProject2\\app\\templates\\home.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -17,10 +21,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\manage.py||{8B382828-6202-11D1-8870-0000F87579D2}|",
       "RelativeMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|solutionrelative:DjangoWebProject2\\manage.py||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\DjangoWebProject2\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|solutionrelative:DjangoWebProject2\\DjangoWebProject2\\settings.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B9479085-AA48-47CD-B540-15698C779469}|DjangoWebProject2\\DjangoWebProject2.pyproj|C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\DjangoWebProject2\\wsgi.py||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -62,12 +62,11 @@
               "RelativeToolTip": "DjangoWebProject2\\DjangoWebProject2\\wsgi.py",
               "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-01-09T15:44:17.212Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T15:44:17.212Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "manage.py",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\manage.py",
               "RelativeDocumentMoniker": "DjangoWebProject2\\manage.py",
@@ -75,18 +74,17 @@
               "RelativeToolTip": "DjangoWebProject2\\manage.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2025-01-09T15:40:48.492Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T15:40:48.492Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "settings.py",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\DjangoWebProject2\\settings.py",
               "RelativeDocumentMoniker": "DjangoWebProject2\\DjangoWebProject2\\settings.py",
               "ToolTip": "C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\DjangoWebProject2\\settings.py",
               "RelativeToolTip": "DjangoWebProject2\\DjangoWebProject2\\settings.py",
-              "ViewState": "AgIAAHMAAAAAAAAAAAAwwIEAAABJAAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAwwHgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
               "WhenOpened": "2025-01-08T17:20:00.611Z",
               "EditorCaption": ""
@@ -105,7 +103,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\app\\templates\\index.html",
               "RelativeDocumentMoniker": "DjangoWebProject2\\app\\templates\\index.html",
@@ -113,8 +111,7 @@
               "RelativeToolTip": "DjangoWebProject2\\app\\templates\\index.html",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2025-01-09T14:46:11.419Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-09T14:46:11.419Z"
             },
             {
               "$type": "Document",
@@ -130,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "home.css",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\app\\static\\home.css",
               "RelativeDocumentMoniker": "DjangoWebProject2\\app\\static\\home.css",
@@ -138,12 +135,11 @@
               "RelativeToolTip": "DjangoWebProject2\\app\\static\\home.css",
               "ViewState": "AgIAAJMBAAAAAAAAAAAqwKEBAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2025-01-08T18:02:19.665Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-08T18:02:19.665Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "home.html",
               "DocumentMoniker": "C:\\Users\\Admin\\source\\repos\\DjangoWebProject2\\DjangoWebProject2\\app\\templates\\home.html",
               "RelativeDocumentMoniker": "DjangoWebProject2\\app\\templates\\home.html",
@@ -164,8 +160,7 @@
               "RelativeToolTip": "DjangoWebProject2\\app\\views.py",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAOcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002457|",
-              "WhenOpened": "2024-12-23T18:07:27.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-23T18:07:27.533Z"
             }
           ]
         }
